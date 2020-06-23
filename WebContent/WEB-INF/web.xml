@@ -18,11 +18,13 @@
       <servlet-class>
          org.springframework.web.servlet.DispatcherServlet
       </servlet-class>
+      
       <!-- 告诉程序 springDispatcherServlet 配置文件的位置 -->
       <init-param>
       	<param-name>contextConfigLocation</param-name>
       	<param-value>classpath:springMVC.xml</param-value>
       </init-param>
+      
       <!-- 程序开始立即加载该配置 -->
       <load-on-startup>1</load-on-startup>
    </servlet>
